@@ -6,13 +6,13 @@ function constructRegex(key, value) {
   var rexp;
 
   switch (key) {
-    'html':
+    case 'html':
       rexp = new RegExp('<!--[\\s\\S]*?-->', 'g');
       break;
-    'debug':
+    case 'debug':
       rexp = new RegExp('[\\t ]*\\/\\/>>debugStart[\\s\\S]*?\\/\\/>>debugEnd\\s*;?\\s*\\n?', 'g');
       break;
-    'custom':
+    case 'custom':
       rexp = new RegExp(value, 'gm');
       break;
   }
