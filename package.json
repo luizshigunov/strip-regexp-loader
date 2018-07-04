@@ -1,0 +1,29 @@
+{
+  "name": "strip-regexp-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader to strip out code blocks between regexps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizshigunov/strip-regexp-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "strip",
+    "remove",
+    "delete"
+  ],
+  "author": "Luiz H Shigunov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/luizshigunov/strip-regexp-loader/issues"
+  },
+  "homepage": "https://github.com/luizshigunov/strip-regexp-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}
