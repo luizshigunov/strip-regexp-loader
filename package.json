@@ -1,6 +1,6 @@
 {
   "name": "strip-regexp-loader",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A webpack loader to strip out code blocks between regexps",
   "main": "index.js",
   "scripts": {
