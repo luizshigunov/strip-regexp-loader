@@ -20,7 +20,7 @@ function constructRegex(key, value) {
 }
 
 function stripRegExps(context, source) {
-  var options = context.options['strip-regexp-loader'] || loaderUtils.getOptions(context) || {};
+  var options = context.options ? context.options['strip-regexp-loader'] : null || loaderUtils.getOptions(context) || {};
   var stripRegexp = options.stripRegexp || {};
 
   for (var key in stripRegexp) {

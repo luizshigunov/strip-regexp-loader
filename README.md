@@ -45,7 +45,7 @@ module: {
 }
 ```
 
-webpack 2
+webpack 2+
 
 ```
 module: {
